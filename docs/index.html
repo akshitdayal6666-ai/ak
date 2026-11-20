@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusPulse | College Event Management</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<!-- Top Navigation -->
+<header class="site-header">
+    <div class="container nav-wrapper">
+        <a href="#top" class="brand">
+            <span class="brand-badge">CP</span>
+            <span>CampusPulse</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary Navigation">
+            <a href="#events">Events</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#clubs">Clubs</a>
+            <a href="#register" class="btn btn-sm">Register</a>
+        </nav>
+    </div>
+</header>
+
+<main id="top">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow">Fall Semester • Campus Life</p>
+                <h1>Discover, Plan, and Join Every Event on Campus</h1>
+                <p class="hero-lead">
+                    From hackathons and cultural fests to guest lectures and intramural tournaments—stay on top of student life in one place.
+                </p>
+                <div class="hero-actions">
+                    <a href="#events" class="btn btn-primary">Explore Upcoming Events</a>
+                    <a href="#register" class="btn btn-outline">Submit an Event</a>
+                </div>
+            </div>
+
+            <aside class="hero-card" aria-label="Featured Event Highlight">
+                <span class="tag">Featured Event</span>
+                <h2>Annual Code &amp; Design Hackathon</h2>
+                <p class="meta">Dec 5–6, 2026 • Innovation Hall</p>
+                <p>36 hours of team building, mentorship from alumni engineers, and prizes for student-led prototypes.</p>
+                <ul class="stat-list">
+                    <li><strong>48</strong><span>Teams Cap</span></li>
+                    <li><strong>$5,000</strong><span>Prize Pool</span></li>
+                    <li><strong>Free</strong><span>Meals &amp; Swag</span></li>
+                </ul>
+                <a href="#register" class="btn btn-primary btn-block">Reserve a Spot</a>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section id="events" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <p class="eyebrow">What's Happening</p>
+                    <h2>Upcoming Campus Events</h2>
+                </div>
+                <p class="section-sub">Filterable by interest in a future JS upgrade; ready to browse now.</p>
+            </div>
+
+            <div class="card-grid">
+                <article class="event-card">
+                    <div class="card-top">
+                        <span class="pill pill-tech">Tech</span>
+                        <span class="date-label">Nov 28, 2026</span>
+                    </div>
+                    <h3>AI &amp; Cloud Career Panel</h3>
+                    <p>Alumni software engineers share practical tips on internships, system design interviews, and open-source work.</p>
+                    <div class="card-footer">
+                        <span>Auditorium B • 4:00 PM</span>
+                        <a href="#register" class="text-link">Register →</a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="card-top">
+                        <span class="pill pill-arts">Cultural</span>
+                        <span class="date-label">Dec 2, 2026</span>
+                    </div>
+                    <h3>Autumn Acoustic &amp; Open Mic</h3>
+                    <p>An evening of live student bands, spoken word, and comedy hosted by the Performing Arts Collective.</p>
+                    <div class="card-footer">
+                        <span>Student Union Lawn • 6:30 PM</span>
+                        <a href="#register" class="text-link">Register →</a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="card-top">
+                        <span class="pill pill-sports">Sports</span>
+                        <span class="date-label">Dec 9, 2026</span>
+                    </div>
+                    <h3>Inter-Department 3v3 Basketball</h3>
+                    <p>Fast-paced bracket tournament open to undergraduate and graduate students across all departments.</p>
+                    <div class="card-footer">
+                        <span>Rec Center Courts • 2:00 PM</span>
+                        <a href="#register" class="text-link">Register →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Schedule Table -->
+    <section id="schedule" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <p class="eyebrow">At a Glance</p>
+                    <h2>This Week's Highlight Schedule</h2>
+                </div>
+            </div>
+
+            <div class="table-wrap">
+                <table class="schedule-table">
+                    <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                        <th>Host</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Sat, Nov 28</td>
+                        <td>4:00 PM</td>
+                        <td>AI &amp; Cloud Career Panel</td>
+                        <td>Auditorium B</td>
+                        <td>ACM Student Chapter</td>
+                    </tr>
+                    <tr>
+                        <td>Wed, Dec 2</td>
+                        <td>6:30 PM</td>
+                        <td>Autumn Acoustic &amp; Open Mic</td>
+                        <td>Student Union Lawn</td>
+                        <td>Arts Collective</td>
+                    </tr>
+                    <tr>
+                        <td>Sat–Sun, Dec 5–6</td>
+                        <td>9:00 AM</td>
+                        <td>Annual Code &amp; Design Hackathon</td>
+                        <td>Innovation Hall</td>
+                        <td>CS &amp; Design Guild</td>
+                    </tr>
+                    <tr>
+                        <td>Wed, Dec 9</td>
+                        <td>2:00 PM</td>
+                        <td>Inter-Department 3v3 Basketball</td>
+                        <td>Rec Center Courts</td>
+                        <td>Campus Recreation</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Clubs -->
+    <section id="clubs" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <p class="eyebrow">Organizers</p>
+                    <h2>Featured Student Organizations</h2>
+                </div>
+            </div>
+
+            <div class="clubs-grid">
+                <div class="club-item">
+                    <h3>ACM Student Chapter</h3>
+                    <p>Weekly coding workshops, tech talks, and hackathon prep sessions.</p>
+                </div>
+                <div class="club-item">
+                    <h3>Performing Arts Collective</h3>
+                    <p>Theater productions, open mics, and cultural showcases all semester.</p>
+                </div>
+                <div class="club-item">
+                    <h3>Sustainability &amp; Outdoors Club</h3>
+                    <p>Campus garden drives, trail cleanups, and weekend hiking trips.</p>
+                </div>
+                <div class="club-item">
+                    <h3>Entrepreneurship Society</h3>
+                    <p>Pitch nights, founder office hours, and product design sprints.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Registration / Proposal Form -->
+    <section id="register" class="section section-alt">
+        <div class="container form-container">
+            <div class="section-header">
+                <div>
+                    <p class="eyebrow">Get Involved</p>
+                    <h2>Event RSVP or Club Submission</h2>
+                    <p class="section-sub">Sign up for an upcoming event or propose a new campus gathering.</p>
+                </div>
+            </div>
+
+            <form class="event-form" action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input id="full-name" name="fullName" type="text" placeholder="Alex Rivera" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="college-email">College Email</label>
+                        <input id="college-email" name="email" type="email" placeholder="alex.rivera@college.edu" required />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="event-select">Select Event</label>
+                        <select id="event-select" name="event">
+                            <option value="hackathon">Annual Code &amp; Design Hackathon</option>
+                            <option value="career-panel">AI &amp; Cloud Career Panel</option>
+                            <option value="open-mic">Autumn Acoustic &amp; Open Mic</option>
+                            <option value="basketball">Inter-Department 3v3 Basketball</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="role-select">Participation Role</label>
+                        <select id="role-select" name="role">
+                            <option value="attendee">Attendee</option>
+                            <option value="volunteer">Event Volunteer</option>
+                            <option value="organizer">Club Organizer / Speaker</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Notes or Dietary / Accessibility Needs</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="Optional details for the organizers..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit Registration</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container footer-content">
+        <p><strong>CampusPulse</strong> — Student Event Portal</p>
+        <p class="muted">Built with HTML5 &amp; CSS3 • Ready for IntelliJ IDEA</p>
+    </div>
+</footer>
+</body>
+</html>
